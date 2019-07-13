@@ -1,3 +1,5 @@
+/* Ustawienia podstawowe */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +27,8 @@ body {
     font-weight: bold;
 }
 
+/* Nagłówek */
+
 header {
     color: white;
     background-color: black;
@@ -34,6 +38,8 @@ header {
 .leftText {
     margin-left: 65px;
 }
+
+/* Nawigacja */
 
 .nav-list {
     list-style: none;
@@ -104,4 +110,54 @@ header {
 {
     display: block;
 }
+
+/* Pierwsza sekcja */
+
+.firstSection {
+    height: 520px;
+    align-items: center;
+    background: rgb(217,217,217);
+    background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(255,255,255,1) 47%);
+}
+
+.scroll {
+    font-size: 80px;
+    font-weight: normal;
+}
+
+.arrowL {
+    padding-left: 80px;
+}
+
+.arrowR {
+    padding-right: 80px;
+}
+
+.blackChair {
+    background-image: url('../images/black_chair.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;
+    height: 400px;
+    padding: 25px 25px;
+}
+
+.blackChairNotice {
+    text-align: center;
+}
+
+.blackChairTitle {
+    font-size: 40px;
+
+}
+
+.blackChairText {
+    padding: 25px 100px;
+    line-height: 25px;
+}
+
+
+
+
 
