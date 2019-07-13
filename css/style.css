@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.main_width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.textColor {
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 40px;
+}
+
+.leftText {
+    margin-left: 65px;
+}
+
+.nav-list {
+    list-style: none;
+    
+    padding:0;
+    margin:0;
+} 
+
+.nav-list_item {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    padding: 40px 0;
+    
+}
+
+.nav-list_link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    
+}
+
+.menu {
+    margin-right: 65px;
+}
+
+.drop {
+    display: none;
+    background: black;
+    position: absolute;
+    top: 80px;
+    padding: 15px 0;
+    list-style-type: none;
+    transform: translateX(-30%);
+    left: 50%;
+
+
+}
+
+.drop-list_item {
+    padding: 5px 5px;
+}
+
+.drop-list_link {
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.drop::before {
+    content: ' ';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    left: 50px;
+    top: -5%;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.nav-list_item:hover > .drop
+{
+    display: block;
+}
+
