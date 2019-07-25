@@ -32,7 +32,7 @@ body {
 header {
     color: white;
     background-color: black;
-    height: 40px;
+    height: 45px;
 }
 
 .leftText {
@@ -226,12 +226,56 @@ header {
     left: 0px;
 }
 
+.textChair {
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 1;
+    
+    position: relative;
+    z-index: 500;
+    top: 155px;
+    left: 20px;
+}
+
+.lineChair {
+    width: 140px;
+    height: 7px;
+    background-color: darkturquoise;
+    position: relative;
+    left: 20px;
+    top: 160px;
+}
+
+
 .thirdSquare {
     margin-right: 65px;
     border: 1px solid rgb(202, 202, 202);
 }
 
+.thirdSquare .textChair {
+    top: 15px;
+    left: 10px;
+}
 
+.thirdSquare .lineChair {
+    top: 40px;
+    left: 10px;
+    
+}
 
+.noticeChair {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    margin-right: 20px;
+    line-height: 20px;
 
+}/* Trzecia sekcja */
+
+.thirdSection {
+    height: 725px;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    margin-top: 65px;
+}
 
