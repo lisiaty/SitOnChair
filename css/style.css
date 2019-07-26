@@ -43,17 +43,17 @@ header {
 
 .nav-list {
     list-style: none;
-    
-    padding:0;
-    margin:0;
-} 
+
+    padding: 0;
+    margin: 0;
+}
 
 .nav-list_item {
     display: inline-block;
     margin: 0;
     position: relative;
     padding: 40px 0;
-    
+
 }
 
 .nav-list_link {
@@ -62,7 +62,7 @@ header {
     color: white;
     font-weight: bold;
     padding-left: 50px;
-    
+
 }
 
 .menu {
@@ -106,8 +106,7 @@ header {
     position: absolute;
 }
 
-.nav-list_item:hover > .drop
-{
+.nav-list_item:hover>.drop {
     display: block;
 }
 
@@ -116,8 +115,8 @@ header {
 .firstSection {
     height: 520px;
     align-items: center;
-    background: rgb(217,217,217);
-    background: linear-gradient(0deg, rgba(217,217,217,1) 0%, rgba(255,255,255,1) 47%);
+    background: rgb(217, 217, 217);
+    background: linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(255, 255, 255, 1) 47%);
 }
 
 .arrowL {
@@ -133,7 +132,7 @@ header {
     color: darkturquoise;
     font-weight: normal;
     font-size: 80px;
-    
+
 }
 
 .blackChair {
@@ -186,7 +185,7 @@ header {
     width: 33%;
     height: 220px;
     margin: 25px 15px;
-    
+
 }
 
 .fisrtSquare {
@@ -196,7 +195,7 @@ header {
     background-position: center;
     margin-left: 65px;
     position: relative;
-    
+
 }
 
 .opacityBox {
@@ -230,7 +229,7 @@ header {
     font-weight: bold;
     font-size: 16px;
     opacity: 1;
-    
+
     position: relative;
     z-index: 500;
     top: 155px;
@@ -260,7 +259,7 @@ header {
 .thirdSquare .lineChair {
     top: 40px;
     left: 10px;
-    
+
 }
 
 .noticeChair {
@@ -270,12 +269,218 @@ header {
     margin-right: 20px;
     line-height: 20px;
 
-}/* Trzecia sekcja */
+}
+
+/* Trzecia sekcja */
 
 .thirdSection {
     height: 725px;
     align-items: center;
     background-color: rgb(240, 240, 240);
     margin-top: 65px;
+    position: relative;
 }
 
+.thirdSection .textChair {
+    position: absolute;
+    left: 70px;
+    top: 42px;
+    font-size: 21px;
+}
+
+.thirdSection .lineChair {
+    position: absolute;
+    left: 70px;
+    top: 73px;
+    width: 320px;
+}
+
+.threeBoxes {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 65px;
+    margin-right: 65px;
+
+}
+
+.frame {
+    top: 155px;
+    border: 2px solid lightgray;
+    width: 325px;
+    height: 500px;
+    position: relative;
+    background-color: rgb(248, 248, 248);
+}
+
+.circle {
+    position: absolute;
+    top: -35px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    background-size: cover;
+    border: 2px solid lightgray;
+}
+
+.circle::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: lightgray;
+
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frame h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: darkturquoise;
+}
+
+.circlePrize {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    left: calc(50% - 60px);
+    background-color: white;
+
+
+}
+
+.prize {
+    width: 120px;
+    height: 120px;
+    color: lightgray;
+    font-size: 44px;
+    position: absolute;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    top: 25px;
+}
+
+.prize sup {
+
+    font-size: 16px;
+}
+
+.currency {
+    width: 120px;
+    height: 120px;
+    color: lightgray;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    font-size: 16px;
+
+}
+
+
+.pointFrame2 .circlePrize {
+    border: 2px solid white;
+}
+
+.pointFrame2,
+.pointFrame2 .circle {
+    border-color: darkturquoise;
+}
+
+.pointFrame2,
+.pointFrame2 .circle {
+    background-color: darkturquoise;
+}
+
+
+
+.pointFrame2 .circle::after {
+    background-color: rgb(240, 240, 240);
+}
+
+
+.pointFrame2 h1 {
+    color: white;
+}
+
+.pointFrame2 .button {
+    background-color: white;
+    color: darkturquoise;
+}
+
+.lines {
+    position: absolute;
+    top: 245px;
+}
+
+.lineGray1 {
+    width: 325px;
+    height: 43px;
+    background-color: rgb(221, 221, 221);
+    color: rgb(155, 155, 155);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+}
+
+.lineGray2 {
+    width: 325px;
+    height: 43px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(155, 155, 155);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+}
+
+.linewhite {
+    width: 325px;
+    height: 43px;
+    background-color: white;
+    color: rgb(155, 155, 155);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+}
+
+
+.frame .button {
+    position: absolute;
+    top: 410px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 30px;
+    background-color: darkturquoise;
+    border-radius: 10px;
+    color: white;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.frame .button a {
+    text-decoration: none;
+    color: white;
+}
+
+.pointFrame2 .button a {
+    color: darkturquoise;
+}
