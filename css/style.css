@@ -181,6 +181,8 @@ header {
     color: white;
 }
 
+/* Druga sekcja */
+
 .square {
     width: 33%;
     height: 220px;
@@ -483,4 +485,232 @@ header {
 
 .pointFrame2 .button a {
     color: darkturquoise;
+}
+
+/* Czwarta sekcja */
+
+.fourthSection {
+    height: 560px;
+    align-items: center;
+    background-color: white;
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+
+}
+
+.fourthSection .textChair {
+    position: absolute;
+    left: 70px;
+    top: 17px;
+    font-size: 21px;
+}
+
+.fourthSection .lineChair {
+    position: absolute;
+    left: 70px;
+    top: 48px;
+    width: 320px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 620px;
+
+}
+
+form>div>input,
+form>div>textarea {
+    width: 100%;
+}
+
+form>div>input::placeholder,
+form>div>textarea::placeholder {
+    color: rgb(194, 194, 194);
+    font-size: 35px;
+
+    font-weight: 100;
+}
+
+input {
+    border: 1px solid darkturquoise;
+    height: 55px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+    border: 1px solid darkturquoise;
+    height: 180px;
+
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid dodgerblue;
+
+}
+
+
+.rightSize {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.rightSize .redChair {
+    background-image: url('../images/red_chair.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 260px;
+    height: 200px;
+
+    position: absolute;
+    top: -210px;
+    left: 95px;
+
+}
+
+.checkBox {
+    position: relative;
+
+}
+
+.checkBoxPicture {
+    background-image: url('../images/form_ok.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+
+    position: absolute;
+    border: 1px solid darkturquoise;
+    top: 30px;
+    left: 75px;
+}
+
+
+.checkBoxText {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    top: 30px;
+    left: 135px;
+    font-size: 20px;
+    color: rgb(194, 194, 194);
+}
+
+
+
+
+.btn {
+    position: absolute;
+    top: 118px;
+    left: 75px;
+
+
+}
+
+.btn>button {
+    background: darkturquoise;
+    width: 340px;
+    height: 75px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn>button:hover {
+    background-color: rgb(125, 201, 202);
+    cursor: pointer;
+}
+
+/* footer */
+
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: 1070px;
+}
+
+.footerLeft {
+    display: flex;
+    font-size: 16px;
+    color: rgb(194, 194, 194);
+    letter-spacing: 1px;
+    width: 700px;
+
+}
+
+.footerCenter {
+    display: flex;
+    width: 150px;
+    height: 100%;
+}
+
+.logo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+
+}
+
+.flickr {
+    background-image: url('../images/flickr.png');
+}
+
+.vimeo {
+    background-image: url('../images/vimeo.png');
+}
+
+.pinterest {
+    background-image: url('../images/pinterest.png');
+}
+
+.twitter {
+    background-image: url('../images/twitter.png');
+}
+
+.footerContainer .footerRight {
+    display: flex;
+    width: 200px;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(194, 194, 194);
+}
+
+.footerRight span {
+    font-weight: bold;
 }
