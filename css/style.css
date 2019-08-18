@@ -487,6 +487,17 @@ header {
     color: darkturquoise;
 }
 
+.pointFrame2 .button {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
 /* Czwarta sekcja */
 
 .fourthSection {
@@ -611,6 +622,8 @@ input:focus {
     top: 30px;
     left: 75px;
 }
+
+
 
 
 .checkBoxText {
